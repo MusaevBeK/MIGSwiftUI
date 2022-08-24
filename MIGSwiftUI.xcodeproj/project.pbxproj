@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEE2645828B4D612005A7728 /* ShortList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2645728B4D612005A7728 /* ShortList.swift */; };
+		CEE2645A28B4D68B005A7728 /* RatesAdressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2645928B4D68B005A7728 /* RatesAdressView.swift */; };
+		CEE2645C28B4F4D7005A7728 /* SharedViewOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2645B28B4F4D7005A7728 /* SharedViewOpen.swift */; };
+		CEE2645E28B523FD005A7728 /* LongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2645D28B523FD005A7728 /* LongList.swift */; };
+		CEE2646028B53FBB005A7728 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2645F28B53FBB005A7728 /* ListModel.swift */; };
+		CEE2646428B5408A005A7728 /* ExchangeRatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2646328B5408A005A7728 /* ExchangeRatesView.swift */; };
 		CEED06A028B34A57000C3A85 /* MIGSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED069F28B34A57000C3A85 /* MIGSwiftUIApp.swift */; };
 		CEED06A228B34A57000C3A85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED06A128B34A57000C3A85 /* ContentView.swift */; };
 		CEED06A428B34A59000C3A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEED06A328B34A59000C3A85 /* Assets.xcassets */; };
 		CEED06A728B34A59000C3A85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEED06A628B34A59000C3A85 /* Preview Assets.xcassets */; };
+		CEED06AE28B36B6B000C3A85 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED06AD28B36B6B000C3A85 /* SideMenu.swift */; };
+		CEED06B028B37FD8000C3A85 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED06AF28B37FD8000C3A85 /* ListView.swift */; };
+		CEED06B228B3923D000C3A85 /* RatesConverterViewOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED06B128B3923D000C3A85 /* RatesConverterViewOpen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEE2645728B4D612005A7728 /* ShortList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortList.swift; sourceTree = "<group>"; };
+		CEE2645928B4D68B005A7728 /* RatesAdressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesAdressView.swift; sourceTree = "<group>"; };
+		CEE2645B28B4F4D7005A7728 /* SharedViewOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewOpen.swift; sourceTree = "<group>"; };
+		CEE2645D28B523FD005A7728 /* LongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongList.swift; sourceTree = "<group>"; };
+		CEE2645F28B53FBB005A7728 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		CEE2646328B5408A005A7728 /* ExchangeRatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesView.swift; sourceTree = "<group>"; };
 		CEED069C28B34A57000C3A85 /* MIGSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIGSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEED069F28B34A57000C3A85 /* MIGSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIGSwiftUIApp.swift; sourceTree = "<group>"; };
 		CEED06A128B34A57000C3A85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEED06A328B34A59000C3A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEED06A628B34A59000C3A85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEED06AD28B36B6B000C3A85 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		CEED06AF28B37FD8000C3A85 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CEED06B128B3923D000C3A85 /* RatesConverterViewOpen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesConverterViewOpen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEE2646528B541D6005A7728 /* MigApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEED06A128B34A57000C3A85 /* ContentView.swift */,
+				CEE2646928B5424D005A7728 /* PopUpViews */,
+				CEE2646728B54204005A7728 /* ListOfRates */,
+				CEE2646828B54229005A7728 /* RatesAdressView */,
+			);
+			path = MigApp;
+			sourceTree = "<group>";
+		};
+		CEE2646728B54204005A7728 /* ListOfRates */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2646A28B542C9005A7728 /* Views */,
+				CEED06AF28B37FD8000C3A85 /* ListView.swift */,
+				CEE2645F28B53FBB005A7728 /* ListModel.swift */,
+			);
+			path = ListOfRates;
+			sourceTree = "<group>";
+		};
+		CEE2646828B54229005A7728 /* RatesAdressView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2645928B4D68B005A7728 /* RatesAdressView.swift */,
+			);
+			path = RatesAdressView;
+			sourceTree = "<group>";
+		};
+		CEE2646928B5424D005A7728 /* PopUpViews */ = {
+			isa = PBXGroup;
+			children = (
+				CEED06AD28B36B6B000C3A85 /* SideMenu.swift */,
+				CEE2645B28B4F4D7005A7728 /* SharedViewOpen.swift */,
+				CEED06B128B3923D000C3A85 /* RatesConverterViewOpen.swift */,
+			);
+			path = PopUpViews;
+			sourceTree = "<group>";
+		};
+		CEE2646A28B542C9005A7728 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE2645728B4D612005A7728 /* ShortList.swift */,
+				CEE2645D28B523FD005A7728 /* LongList.swift */,
+				CEE2646328B5408A005A7728 /* ExchangeRatesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CEED069328B34A57000C3A85 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				CEED069F28B34A57000C3A85 /* MIGSwiftUIApp.swift */,
-				CEED06A128B34A57000C3A85 /* ContentView.swift */,
+				CEE2646528B541D6005A7728 /* MigApp */,
 				CEED06A328B34A59000C3A85 /* Assets.xcassets */,
 				CEED06A528B34A59000C3A85 /* Preview Content */,
 			);
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE2645828B4D612005A7728 /* ShortList.swift in Sources */,
+				CEE2645E28B523FD005A7728 /* LongList.swift in Sources */,
+				CEED06B028B37FD8000C3A85 /* ListView.swift in Sources */,
+				CEE2645A28B4D68B005A7728 /* RatesAdressView.swift in Sources */,
+				CEED06AE28B36B6B000C3A85 /* SideMenu.swift in Sources */,
 				CEED06A228B34A57000C3A85 /* ContentView.swift in Sources */,
+				CEE2646428B5408A005A7728 /* ExchangeRatesView.swift in Sources */,
+				CEE2645C28B4F4D7005A7728 /* SharedViewOpen.swift in Sources */,
+				CEED06B228B3923D000C3A85 /* RatesConverterViewOpen.swift in Sources */,
 				CEED06A028B34A57000C3A85 /* MIGSwiftUIApp.swift in Sources */,
+				CEE2646028B53FBB005A7728 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
